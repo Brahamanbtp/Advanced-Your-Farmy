@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="loan.css">
+</head>
+<body>
+    <div class="loan-section">
+        <h2>Loan Options</h2>
+        <p>Empower your farming journey with our flexible loan options tailored to your needs.</p>
+        
+        <div class="loan-features">
+            <div class="feature">
+                <img src="low-interest.png" alt="Low Interest Rates">
+                <h3>Low Interest Rates</h3>
+                <p>Get the best rates in the market to support your agricultural endeavors.</p>
+            </div>
+            <div class="feature">
+                <img src="flexible-repayment.png" alt="Flexible Repayment">
+                <h3>Flexible Repayment</h3>
+                <p>Choose a repayment plan that suits your harvesting schedule.</p>
+            </div>
+            <div class="feature">
+                <img src="quick-approval.png" alt="Quick Approval">
+                <h3>Quick Approval</h3>
+                <p>Fast-track your loan processing with minimal paperwork.</p>
+            </div>
+        </div>
+        
+        <div class="loan-calculator">
+            <h3>Loan Calculator</h3>
+            <p>Calculate your monthly repayments:</p>
+            <div class="input-group">
+                <input type="number" id="loanAmount" placeholder="Loan Amount ($)" aria-label="Loan Amount">
+                <input type="number" id="interestRate" placeholder="Interest Rate (%)" aria-label="Interest Rate">
+                <input type="number" id="loanTerm" placeholder="Term (Years)" aria-label="Loan Term">
+            </div>
+            <button id="calculateButton" class="cta-button">Calculate</button>
+            <p id="monthlyPayment" class="result"></p>
+        </div>
+        
+        <div class="additional-info">
+            <h4>Why Choose Our Loans?</h4>
+            <ul>
+                <li>Personalized loan plans tailored to your unique needs.</li>
+                <li>Expert financial advice from our team of agricultural finance specialists.</li>
+                <li>Access to exclusive tools and resources to help you manage your finances.</li>
+                <li>Dedicated customer support available 24/7.</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="loan.js"></script>
+    
+</body>
+</html>

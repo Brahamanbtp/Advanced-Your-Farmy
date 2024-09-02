@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="practice.css">
+</head>
+<body>
+    <div class="practice-section">
+        <h2>Practice & Tutorials</h2>
+        <div class="practice-container">
+            <div class="practice-item">
+                <div class="practice-image" style="background-image: url('path/to/image1.jpg');"></div>
+                <div class="practice-content">
+                    <h3>Crop Rotation Techniques</h3>
+                    <p>Learn the best practices for rotating crops to maintain soil health and improve yield.</p>
+                    <button class="read-more" onclick="openTutorial('cropRotation')">Read More</button>
+                </div>
+            </div>
+            <div class="practice-item">
+                <div class="practice-image" style="background-image: url('path/to/image2.jpg');"></div>
+                <div class="practice-content">
+                    <h3>Efficient Water Management</h3>
+                    <p>Understand how to optimize water usage on your farm to save resources and reduce costs.</p>
+                    <button class="read-more" onclick="openTutorial('waterManagement')">Read More</button>
+                </div>
+            </div>
+            <div class="practice-item">
+                <div class="practice-image" style="background-image: url('path/to/image3.jpg');"></div>
+                <div class="practice-content">
+                    <h3>Pest Control Strategies</h3>
+                    <p>Explore natural and chemical pest control methods to protect your crops effectively.</p>
+                    <button class="read-more" onclick="openTutorial('pestControl')">Read More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal for Tutorial Details -->
+    <div id="tutorialModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal()">&times;</span>
+            <div id="tutorialContent"></div>
+        </div>
+    </div>
+    
+    <script src="practice.js"></script>
+</body>
+</html>

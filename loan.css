@@ -1,0 +1,169 @@
+.loan-section {
+    padding: 50px 20px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(255, 248, 220, 0.9));
+    border-radius: 25px;
+    margin: 50px auto;
+    max-width: 1200px;
+    text-align: center;
+    box-shadow: 0 12px 48px rgba(31, 38, 135, 0.4);
+    position: relative;
+    backdrop-filter: blur(12px);
+    border: 5px solid #FFCC00;
+    animation: fadeInUp 1s ease-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.loan-section h2 {
+    font-size: 3rem;
+    color: #2c3e50;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.loan-section p {
+    font-size: 1.25rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.loan-features {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    gap: 30px;
+}
+
+.feature {
+    max-width: 300px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    box-shadow: 0 6px 24px rgba(31, 38, 135, 0.3);
+    border: 3px solid #FFCC00;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature img {
+    max-width: 50px;
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    font-size: 1.75rem;
+    margin-bottom: 10px;
+    color: #333;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.feature p {
+    font-size: 1rem;
+    color: #777;
+}
+
+.feature:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 36px rgba(31, 38, 135, 0.4);
+}
+
+.loan-calculator {
+    margin-top: 40px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.3);
+    border: 3px solid #FFCC00;
+}
+
+.loan-calculator h3 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.loan-calculator input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 250px;
+    border-radius: 15px;
+    border: 2px solid #ddd;
+    font-size: 1rem;
+    box-shadow: inset 0 4px 8px rgba(31, 38, 135, 0.1);
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.loan-calculator input:focus {
+    border-color: #FFCC00;
+    box-shadow: inset 0 4px 16px rgba(31, 38, 135, 0.2);
+    outline: none;
+}
+
+.cta-button {
+    padding: 12px 24px;
+    background-color: #FFCC00;
+    color: #2c3e50;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.cta-button:hover {
+    background-color: #ffaa00;
+    transform: scale(1.05);
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #2c3e50;
+}
+
+.additional-info {
+    margin-top: 50px;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 20px;
+    border: 3px solid #FFCC00;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.3);
+}
+
+.additional-info h4 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.additional-info ul {
+    font-size: 1.25rem;
+    color: #555;
+    list-style: disc inside;
+    padding-left: 20px;
+}
+
+.additional-info ul li {
+    margin-bottom: 15px;
+}
