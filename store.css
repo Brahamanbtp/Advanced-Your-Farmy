@@ -14,7 +14,7 @@
 .carousel {
     position: relative;
     max-width: 1180px;
-    height: 200px;
+    height: 300px;
     margin: 30px auto;
     overflow: hidden;
     border-radius: 15px;
@@ -35,7 +35,8 @@
 }
 
 .carousel-item img {
-    width: 100%;
+    width: 100px;
+    height: 100px;
     border-radius: 15px;
 }
 

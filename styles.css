@@ -99,11 +99,11 @@ body {
 .weather-container {
     position: fixed;
     top: 50%;
-    right: 0.1%;
+    left: 78%;
     transform: translateY(-50%);
     z-index: 1000;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 15px 0 0 15px;
+    backdrop-filter: blur(0px);
+    border-radius: 15px 15px;
     padding: 20px;
     box-shadow: -5px 0px 25px rgba(0, 0, 0, 0.2);
     width: 250px;
@@ -115,30 +115,33 @@ body {
     align-items: center;
     margin-bottom: 20px;
     padding: 0 15px;
+    left: 1px;
 }
 
 .search input[type="text"] {
-    padding: 12px 30px;
+    padding: 12px 7px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px 10px;
     flex: 1;
     margin-right: 15px;
     font-size: 1rem;
     position: relative;
+    
+    
 }
 
 .search button {
-    padding: 12px 18px;
+    padding: 12px 15px;
     background-color: #4CAF50;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px 10px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-left: -30px;
+    margin-left: -20px;
     z-index: 1;
     position: absolute;
-    right: 10px;
+    left: 90%;
 }
 
 .search button:hover {
