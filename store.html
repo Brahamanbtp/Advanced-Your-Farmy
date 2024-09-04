@@ -9,13 +9,16 @@
 <body>
     <div class="store-section">
         <h2>Our Products</h2>
+
+        <!-- Carousel for Vegetables -->
         <div class="carousel">
+            <h3>Vegetables</h3>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="images/wheat.png" alt="Organic Wheat">
                     <div class="product-info">
                         <h3>Organic Wheat</h3>
-                        <p>$12.99 per kg</p>
+                        <p>Rs. 45 per kg</p>
                         <button class="add-to-cart" data-product="Organic Wheat" data-price="12.99">Add to Cart</button>
                     </div>
                 </div>
@@ -23,7 +26,7 @@
                     <img src="images/beet.png" alt="Beet">
                     <div class="product-info">
                         <h3>Beet</h3>
-                        <p>$5.99 per kg</p>
+                        <p>Rs. 31 per kg</p>
                         <button class="add-to-cart" data-product="Beet" data-price="5.99">Add to Cart</button>
                     </div>
                 </div>
@@ -31,22 +34,188 @@
                     <img src="images/broccoli.png" alt="Broccoli">
                     <div class="product-info">
                         <h3>Broccoli</h3>
-                        <p>$8.99 per kg</p>
+                        <p>Rs. 200 per kg</p>
                         <button class="add-to-cart" data-product="Broccoli" data-price="8.99">Add to Cart</button>
                     </div>
                 </div>
+                <div class="carousel-item">
+                    <img src="images/cabbage_PNG8815.png" alt="Cabbage">
+                    <div class="product-info">
+                        <h3>Cabbage</h3>
+                        <p>Rs. 50 per kg</p>
+                        <button class="add-to-cart" data-product="Cabbage" data-price="8.99">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/cauliflower.png" alt="cauliflower">
+                    <div class="product-info">
+                        <h3>Cauliflower</h3>
+                        <p>Rs. 70 per kg</p>
+                        <button class="add-to-cart" data-product="cauliflower" data-price="10.99">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/carrot_PNG4988.png" alt="Carrot">
+                    <div class="product-info">
+                        <h3>Carrot</h3>
+                        <p>Rs. 40 per kg</p>
+                        <button class="add-to-cart" data-product="Carrot" data-price="8.99">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/ginger_PNG16800.png" alt="Ginger">
+                    <div class="product-info">
+                        <h3>Ginger</h3>
+                        <p>Rs. 200 per kg</p>
+                        <button class="add-to-cart" data-product="Ginger" data-price="8.99">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/mushroom_PNG3219.png" alt="Mushroom">
+                    <div class="product-info">
+                        <h3>Mushroom</h3>
+                        <p>Rs. 260 per kg</p>
+                        <button class="add-to-cart" data-product="Mushroom" data-price="8.99">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/onion_PNG3821.png" alt="Onion">
+                    <div class="product-info">
+                        <h3>Onion</h3>
+                        <p>Rs. 65 per kg</p>
+                        <button class="add-to-cart" data-product="Onion" data-price="8.99">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/pine_cone_PNG13357.png" alt="Pine corn">
+                    <div class="product-info">
+                        <h3>Pine corn</h3>
+                        <p>Rs. 10 per piece</p>
+                        <button class="add-to-cart" data-product="Pine corn" data-price="8.99">Add to Cart</button>
+                    </div>
+                </div>
             </div>
-            <a class="carousel-control prev" onclick="prevSlide()">&#10094;</a>
-            <a class="carousel-control next" onclick="nextSlide()">&#10095;</a>
+            <a class="carousel-control prev" onclick="prevSlide(0)">&#10094;</a>
+            <a class="carousel-control next" onclick="nextSlide(0)">&#10095;</a>
         </div>
-    
+
+        <!-- Carousel for Seeds -->
+        <div class="carousel">
+            <h3>Seeds</h3>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/cotton.jpg" alt="Cotton Seeds">
+                    <div class="product-info">
+                        <h3>Cotton Seeds</h3>
+                        <p>Rs. 864 per pack</p>
+                        <button class="add-to-cart" data-product="Cotton Seeds" data-price="100">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/cucumber.jpg" alt="Cucumber Seeds">
+                    <div class="product-info">
+                        <h3>Cucumber Seeds</h3>
+                        <p>Rs. 125 per pack</p>
+                        <button class="add-to-cart" data-product="Cucumber Seeds" data-price="120">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/watermelon.jpg" alt="Watermelon Seeds">
+                    <div class="product-info">
+                        <h3>Watermelon Seeds</h3>
+                        <p>Rs. 170 per pack</p>
+                        <button class="add-to-cart" data-product="Watermelon Seeds" data-price="120">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/sesame.jpg" alt="Sesame Seeds">
+                    <div class="product-info">
+                        <h3>Sesame Seeds</h3>
+                        <p>Rs. 144 per pack</p>
+                        <button class="add-to-cart" data-product="Sesame Seeds" data-price="120">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/soyabean.jpg" alt="Soyabean Seeds">
+                    <div class="product-info">
+                        <h3>Soyabean Seeds</h3>
+                        <p>Rs. 220 per pack</p>
+                        <button class="add-to-cart" data-product="Soyabean Seeds" data-price="120">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/tomato.jpg" alt="Tomato Seeds">
+                    <div class="product-info">
+                        <h3>Tomato Seeds</h3>
+                        <p>Rs. 1150 per pack</p>
+                        <button class="add-to-cart" data-product="Tomato Seeds" data-price="120">Add to Cart</button>
+                    </div>
+                </div>
+                
+            </div>
+            <a class="carousel-control prev" onclick="prevSlide(1)">&#10094;</a>
+            <a class="carousel-control next" onclick="nextSlide(1)">&#10095;</a>
+        </div>
+
+        <!-- Carousel for Fertilizers -->
+        <div class="carousel">
+            <h3>Fertilizers</h3>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/fertilizer1.png" alt="Fertilizer 1">
+                    <div class="product-info">
+                        <h3>Organic Fertilizer</h3>
+                        <p>Rs. 200 per kg</p>
+                        <button class="add-to-cart" data-product="Organic Fertilizer" data-price="200">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/fertilizer2.png" alt="Fertilizer 2">
+                    <div class="product-info">
+                        <h3>Compost</h3>
+                        <p>Rs. 180 per kg</p>
+                        <button class="add-to-cart" data-product="Compost" data-price="180">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Add more fertilizers here -->
+            </div>
+            <a class="carousel-control prev" onclick="prevSlide(2)">&#10094;</a>
+            <a class="carousel-control next" onclick="nextSlide(2)">&#10095;</a>
+        </div>
+
+        <!-- Carousel for Mammals -->
+        <div class="carousel">
+            <h3>Mammals</h3>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/mammal1.png" alt="Mammal 1">
+                    <div class="product-info">
+                        <h3>Cow</h3>
+                        <p>Rs. 50000</p>
+                        <button class="add-to-cart" data-product="Cow" data-price="50000">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/mammal2.png" alt="Mammal 2">
+                    <div class="product-info">
+                        <h3>Goat</h3>
+                        <p>Rs. 15000</p>
+                        <button class="add-to-cart" data-product="Goat" data-price="15000">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Add more mammals here -->
+            </div>
+            <a class="carousel-control prev" onclick="prevSlide(3)">&#10094;</a>
+            <a class="carousel-control next" onclick="nextSlide(3)">&#10095;</a>
+        </div>
+
         <div class="cart-section">
             <h3>Shopping Cart</h3>
             <div id="cartItems" class="cart-items"></div>
-            <p class="total">Total: $<span id="cartTotal">0.00</span></p>
+            <p class="total">Total: Rs.<span id="cartTotal">0.00</span></p>
             <button class="checkout-button" onclick="checkout()">Checkout</button>
         </div>
-    
+
         <div class="payment-section">
             <h3>Payment</h3>
             <form id="paymentForm" onsubmit="processPayment(event)">
@@ -64,3 +233,4 @@
     <script src="store.js"></script>
 </body>
 </html>
+
