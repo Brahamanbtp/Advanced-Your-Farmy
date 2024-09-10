@@ -6,13 +6,14 @@
 }
 
 body {
-    background: url('images/wheat\ field.jpg') no-repeat center center fixed;
+    background: url('images/wheat field.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #333;
+    backdrop-filter: blur(1px);
 
 }
 
@@ -102,7 +103,7 @@ body {
     left: 78%;
     transform: translateY(-50%);
     z-index: 1000;
-    backdrop-filter: blur(0px);
+    backdrop-filter: blur(5px);
     border-radius: 15px 15px;
     padding: 20px;
     box-shadow: -5px 0px 25px rgba(0, 0, 0, 0.2);

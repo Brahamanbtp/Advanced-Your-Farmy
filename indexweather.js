@@ -40,7 +40,7 @@ async function checkWeather(city) {
                 weatherIcon.src = "./images/drizzle.png";
                 break;
             default:
-                weatherIcon.src = "./images/unknown.png";
+                weatherIcon.src = "./images/default.png";
         }
 
         document.querySelector(".weather").style.display = "block";
